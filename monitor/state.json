@@ -78,14 +78,14 @@
     "changed": "2026-10-12"
   },
   "ci-minimum-wage": {
-    "hash": "8d3c2b051d08d94bfca56ecb762fb59c783ac4249b0a3440c7e027d43803bf6a",
-    "chars": 12263,
+    "hash": "6aa057065b08e01cff2c5a214f52ca1f0c67c1e275b707b470263d31049d9303",
+    "chars": 12267,
     "checked": "2026-10-12",
     "changed": "2026-10-12"
   },
   "ci-pps": {
-    "hash": "c5fd455c4dc95650e379c8865c19691294158e3b17bd405509d99cfda29f2625",
-    "chars": 13281,
+    "hash": "c9e11e8a07ab5e6650a2ec2154473c51f20dfa72c7f5dc0e3da26d809dbe68d2",
+    "chars": 13282,
     "checked": "2026-10-12",
     "changed": "2026-10-12"
   },
@@ -108,8 +108,8 @@
     "changed": "2026-10-12"
   },
   "samaritans": {
-    "hash": "7ad9033420c8bbc308d1c9024969304e95be0847e2b365fd77b300a000de94b4",
-    "chars": 11215,
+    "hash": "99f365d64afa5c5550d385cc35e40bda493774342cabf892fa86837a80cab304",
+    "chars": 13307,
     "checked": "2026-10-12",
     "changed": "2026-10-12"
   },
