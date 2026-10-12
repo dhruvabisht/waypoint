@@ -78,14 +78,14 @@
     "changed": "2026-10-12"
   },
   "ci-minimum-wage": {
-    "hash": "4bf1b362ceaab45085760fe8280b5bde211e8e447f8db57eeec5b5467f3d4520",
-    "chars": 12267,
+    "hash": "f03d98004afb713916e4b24dc88602ffe40882e5896195907796942b463e4b22",
+    "chars": 11076,
     "checked": "2026-10-12",
     "changed": "2026-10-12"
   },
   "ci-pps": {
-    "hash": "e52a5258a4cc4a255852a3b17b34de2666c96370e977c390eb87128a2258f9c1",
-    "chars": 13282,
+    "hash": "0f50a13450b84dea68fe8099cfbd5beb377e17ab7098f50a3741005010fecfa3",
+    "chars": 12277,
     "checked": "2026-10-12",
     "changed": "2026-10-12"
   },
