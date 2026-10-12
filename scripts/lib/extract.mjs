@@ -30,7 +30,14 @@ function mainContent(html) {
   return body ? body[0] : html;
 }
 
-export function extractText(html) {
+// Per-site tweaks for content that changes on every request.
+const SITE_RULES = {
+  // The "Related documents" list is ordered by search scores that change
+  // with every request. Everything after it is generic contact details.
+  'www.citizensinformation.ie': { stopAt: /^Related documents$/ },
+};
+
+export function extractText(html, url = '') {
   let s = html.replace(/<!--[\s\S]*?-->/g, ' ');
   s = s.replace(/<(script|style|noscript|svg|template|iframe|head)\b[\s\S]*?<\/\1>/gi, ' ');
   s = mainContent(s);
@@ -43,11 +50,16 @@ export function extractText(html) {
   s = s.replace(/<(br|p|li|h[1-6]|tr|div|section|dt|dd|table|ul|ol)\b[^>]*>/gi, '\n');
   s = s.replace(/<[^>]+>/g, ' ');
   s = decode(s);
-  return s
+  let lines = s
     .split('\n')
-    .map((line) => line.replace(/[ \t ​]+/g, ' ').trim())
-    .filter((line) => line && line !== '[]')
-    .join('\n');
+    .map((line) => line.replace(/[ \t\u00a0\u200b]+/g, ' ').trim())
+    .filter((line) => line && line !== '[]');
+  const rule = url ? SITE_RULES[new URL(url).host] : null;
+  if (rule?.stopAt) {
+    const stop = lines.findIndex((line) => rule.stopAt.test(line));
+    if (stop > 0) lines = lines.slice(0, stop);
+  }
+  return lines.join('\n');
 }
 
 // Line diff (longest common subsequence). Returns lines prefixed "+ " or "- ".

@@ -12,6 +12,8 @@
 //   node scripts/check-sources.mjs            report only (and update snapshots)
 //   node scripts/check-sources.mjs --issues   also open GitHub issues
 //   node scripts/check-sources.mjs --dry-run  print the issues instead
+//   node scripts/check-sources.mjs --rebaseline  accept every page as it is now,
+//                                                without reporting changes
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { join } from 'node:path';
@@ -25,6 +27,7 @@ const STATE = join(ROOT, 'monitor', 'state.json');
 const USER_AGENT = `Mozilla/5.0 (compatible; WaypointSourceMonitor/1.0; +https://github.com/${site.repo})`;
 const MAX_DIFF_LINES = 150;
 const openIssues = process.argv.includes('--issues') || process.argv.includes('--dry-run');
+const rebaseline = process.argv.includes('--rebaseline');
 
 async function fetchPage(url) {
   let lastError;
@@ -75,7 +78,7 @@ for (const [id, source] of Object.entries(content.sources)) {
     problems.push({ id, source, reason: `Could not load the page (${result.error}). This is often temporary.` });
     continue;
   }
-  const text = `${extractText(result.html)}\n`;
+  const text = `${extractText(result.html, source.url)}\n`;
   // A tiny page where we used to have a full one is usually a block page or
   // an outage, not a real edit. Keep the old snapshot and flag it.
   if (text.length < 300 || (known && text.length < known.chars * 0.3)) {
@@ -84,7 +87,7 @@ for (const [id, source] of Object.entries(content.sources)) {
   }
   const hash = sha(text);
   writeFileSync(file, text);
-  if (!known) {
+  if (!known || rebaseline) {
     baselined.push(id);
   } else if (known.hash !== hash) {
     changed.push({ id, source, since: known.changed || known.checked, diff: before === null ? null : diffLines(before, text) });

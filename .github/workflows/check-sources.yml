@@ -11,6 +11,11 @@ on:
   schedule:
     - cron: '23 6 * * 1,4'
   workflow_dispatch:
+    inputs:
+      rebaseline:
+        description: Accept every official page as it is now, without opening issues (use after changing the extractor or adding sources)
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -50,7 +55,7 @@ jobs:
           restore-keys: source-snapshots-
 
       - name: Compare official pages with the last copies
-        run: node scripts/check-sources.mjs --issues
+        run: node scripts/check-sources.mjs --issues ${{ inputs.rebaseline && '--rebaseline' || '' }}
 
       - name: Keep this run's copies for next time
         if: ${{ !cancelled() }}

@@ -71,6 +71,10 @@ npm run check:links
 
 Add `-- --dry-run` to either one to preview the issues it would open.
 
+If you change how pages are read (`scripts/lib/extract.mjs`) or add many sources at once, run the workflow by hand with **Actions → Check official sources → Run workflow** and tick **rebaseline**. It records every page as it is now without opening issues.
+
+Some websites show slightly different pages to GitHub's servers than to your computer. Treat the fingerprints in `monitor/state.json` as GitHub's view. Running the check on your own computer may report changes that are only that difference.
+
 Only a fingerprint of each official page is committed (`monitor/state.json`). The full text, used to show exactly what changed, stays in the workflow's private cache, so the public repository does not republish other organisations' pages. If the cache expires, changes are still caught, just without the exact wording.
 
 The workflow also commits `monitor/last-run.txt` every time it runs. This keeps the repository active: GitHub turns off scheduled workflows in repositories with no activity for 60 days.
