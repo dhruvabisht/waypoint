@@ -1,0 +1,102 @@
+{
+  "isd-stamps": {
+    "title": "Immigration permission/stamps",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/"
+  },
+  "isd-register-first": {
+    "title": "Registering your immigration permission for the first time",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-register-your-immigration-permission-for-the-first-time/information-on-registering-your-immigration-permission-for-the-first-time/"
+  },
+  "isd-required-documents": {
+    "title": "Required documents and registration fees",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-register-your-immigration-permission-for-the-first-time/required-documents/"
+  },
+  "isd-registration-faq": {
+    "title": "Frequently asked questions for registration",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/frequently-asked-questions-for-registration/"
+  },
+  "isd-student-permission": {
+    "title": "Student permission",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/student-permission/"
+  },
+  "isd-graduate-programme": {
+    "title": "Third level graduate programme",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/third-level-graduate-programme/"
+  },
+  "isd-spouse-stamp-1g": {
+    "title": "Eligible spouses and partners of General Employment Permit and Intra-Corporate Transferee permit holders",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/attention-eligible-spouses-and-partners-of-general-employment-permit-and-intra-corporate-transferee-irish-employment-permit-holders/"
+  },
+  "isd-wcatt": {
+    "title": "Without condition as to time (Stamp 5)",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/without-condition-as-to-time/"
+  },
+  "isd-eu-treaty-rights": {
+    "title": "EU Treaty Rights",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/coming-to-join-family-in-ireland/joining-an-eea-or-swiss-national/eu-treaty-rights/"
+  },
+  "isd-entry-non-eu": {
+    "title": "Entry for non-EU, non-EEA, non-Swiss and non-UK nationals",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/at-the-border/entry-for-non-eu-non-eea-non-swiss-and-non-uk-nationals/"
+  },
+  "isd-visit": {
+    "title": "Coming to visit Ireland",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/"
+  },
+  "isd-visa-faq": {
+    "title": "Short stay visa: frequently asked questions",
+    "publisher": "Immigration Service Delivery",
+    "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/frequently-asked-questions/"
+  },
+  "dete-permit-types": {
+    "title": "Employment permit types",
+    "publisher": "Department of Enterprise, Tourism and Employment",
+    "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/"
+  },
+  "ci-minimum-wage": {
+    "title": "Minimum wage",
+    "publisher": "Citizens Information",
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/pay-and-employment/minimum-wage/"
+  },
+  "ci-pps": {
+    "title": "Personal Public Service (PPS) number",
+    "publisher": "Citizens Information",
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/personal-public-service-number/"
+  },
+  "ecas-112-sms": {
+    "title": "Emergency Text Service",
+    "publisher": "Emergency Call Answering Service (112.ie)",
+    "url": "https://112.ie/emergency-sms-service/"
+  },
+  "ecas-112-sms-faq": {
+    "title": "SMS questions and answers",
+    "publisher": "Emergency Call Answering Service (112.ie)",
+    "url": "https://112.ie/sms-questions-and-answers/"
+  },
+  "garda-numbers": {
+    "title": "Useful contact numbers",
+    "publisher": "An Garda Síochána",
+    "url": "https://www.garda.ie/en/contact-us/useful-contact-numbers/"
+  },
+  "samaritans": {
+    "title": "Contact Samaritans",
+    "publisher": "Samaritans Ireland",
+    "url": "https://www.samaritans.org/ireland/how-we-can-help/contact-samaritan/"
+  },
+  "tourist-sos": {
+    "title": "Tourist SOS",
+    "publisher": "Tourist SOS",
+    "url": "https://www.touristsos.ie/"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "title": "Register your immigration permission and get your IRP card",
+  "h1": "Register and get your IRP card",
+  "description": "How to register your immigration permission in Ireland: the 90-day rule, booking at Burgh Quay, what to bring, the €300 fee and who does not pay it.",
+  "lede": "If you are not from the EU, EEA, UK or Switzerland and you stay in Ireland for more than 90 days, you must register your permission. Here is how.",
+  "sections": [
+    {
+      "heading": "When to register",
+      "list": [
+        "Register within 90 days of arriving in Ireland.",
+        "Cannot get an appointment in time? Your permission will not be cancelled while you wait. Keep proof that you tried to book within the 90 days."
+      ],
+      "sources": ["isd-register-first", "isd-stamps"],
+      "reviewed": "2026-10-12"
+    },
+    {
+      "heading": "Where to register",
+      "list": [
+        "Since 13 January 2025, Immigration Service Delivery (ISD) does all first-time registrations in Ireland. The Garda National Immigration Bureau no longer does them.",
+        "The Registration Office is at 13-14 Burgh Quay, Dublin 2, D02 XK70.",
+        "The office is wheelchair accessible. Need a translator? Ask through your ISD Customer Service account."
+      ],
+      "sources": ["isd-register-first"],
+      "reviewed": "2026-10-12"
+    },
+    {
+      "heading": "How to book",
+      "steps": [
+        "Arrive in Ireland first. You can only book after you arrive.",
+        "Create or log in to your ISD Customer Service account.",
+        "Book an appointment. Booking is free."
+      ],
+      "warning": "Anyone who charges you to book an appointment is not working for ISD and has no appointments to offer.",
+      "link": { "label": "Open the ISD Customer Service portal", "url": "https://portal.irishimmigration.ie/en/" },
+      "sources": ["isd-required-documents", "isd-register-first", "isd-registration-faq"],
+      "reviewed": "2026-10-12"
+    },
+    {
+      "heading": "What to bring",
+      "list": [
+        "Your passport",
+        "Proof of your address",
+        "Your entry visa, if you needed one to travel",
+        "The landing stamp you got when you arrived",
+        "The documents for your type of permission, for example private medical insurance (cash-back policies are not accepted)",
+        "Your sponsor, if your permission depends on another person. They must come with you.",
+        "A credit or debit card for the fee"
+      ],
+      "link": { "label": "Full document list for each stamp", "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-register-your-immigration-permission-for-the-first-time/required-documents/" },
+      "sources": ["isd-required-documents"],
+      "reviewed": "2026-10-12"
+    },
+    {
+      "heading": "The fee",
+      "body": "The fee is €300 per person, paid by credit or debit card. You do not pay if you are:",
+      "list": [
+        "Under 18",
+        "The spouse, civil partner, widow, widower or surviving civil partner of an Irish citizen",
+        "The spouse or dependant of an EU citizen, and you have a residence permit",
+        "A refugee, a programme refugee, or a person with subsidiary protection",
+        "A person with permission to remain under section 49(4)(a) of the International Protection Act 2015",
+        "A family member who joined a recognised refugee in Ireland",
+        "A person granted a change of permission because of domestic violence"
+      ],
+      "sources": ["isd-required-documents", "isd-registration-faq"],
+      "reviewed": "2026-10-12"
+    },
+    {
+      "heading": "At your appointment",
+      "steps": [
+        "Check in at a kiosk and wait for your number.",
+        "An officer checks your documents and takes your photo and fingerprints.",
+        "Pay the fee, if you need to."
+      ],
+      "sources": ["isd-register-first"],
+      "reviewed": "2026-10-12"
+    },
+    {
+      "heading": "After your appointment",
+      "list": [
+        "Your Irish Residence Permit (IRP) card comes by post, usually within 10 working days.",
+        "The IRP card is not an identity card, but it proves you live here legally. Carry it with you."
+      ],
+      "sources": ["isd-register-first", "isd-stamps"],
+      "reviewed": "2026-10-12"
+    },
+    {
+      "heading": "Renewing your permission",
+      "list": [
+        "Renew online before your permission ends. You do not go back to Burgh Quay.",
+        "The renewal fee is also €300, unless you do not have to pay."
+      ],
+      "link": { "label": "Renew online", "url": "https://inisonline.jahs.ie/user/login" },
+      "sources": ["isd-stamps", "isd-registration-faq"],
+      "reviewed": "2026-10-12"
+    }
+  ]
+}

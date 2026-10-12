@@ -1,0 +1,29 @@
+name: Report a mistake
+description: Something on Waypoint is wrong, out of date or hard to use.
+title: 'Mistake on '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep Waypoint correct.
+        **This page is public.** Do not include personal details such as your name, address, IRP number or anything about your own immigration case.
+  - type: input
+    id: page
+    attributes:
+      label: Which page?
+      description: The address of the Waypoint page.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: What does the page say, and what should it say?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: A link to an official page (for example irishimmigration.ie) that shows the correct information, if you have one.

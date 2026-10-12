@@ -1,0 +1,109 @@
+{
+  "hub": {
+    "title": "Free help for students, workers and visitors in Ireland",
+    "h1": "Help and resources",
+    "description": "Free services that help international students, people moving to Ireland, and visitors, plus emergency numbers to keep.",
+    "lede": "Free services that can help you. Pick who you are."
+  },
+  "audiences": [
+    {
+      "key": "students",
+      "slug": "students",
+      "tab": "Students",
+      "title": "Help for international students in Ireland",
+      "h1": "Help for international students",
+      "description": "International student in Ireland? Register for Stamp 2, check your work hours, get a PPS number and find free advice.",
+      "lede": "Studying in Ireland? Start here.",
+      "items": [
+        { "name": "Register and get your IRP card", "sub": "Register your Stamp 2 within 90 days of arriving", "href": "/register/" },
+        { "name": "Stamp 2 rules", "sub": "20 hours a week in term, 40 in the holidays", "href": "/stamps/stamp-2/" },
+        { "name": "After you graduate: Stamp 1G", "sub": "Stay and look for work for 12 months or more", "href": "/stamps/stamp-1g/" },
+        { "name": "Get a PPS number", "sub": "You need one when you start work, to register with Revenue", "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/personal-public-service-number/" },
+        { "name": "Irish Council for International Students", "sub": "Free advice on your rights as an international student", "url": "https://www.internationalstudents.ie/" },
+        { "name": "Your college's international office", "sub": "Letters, housing help and wellbeing support" }
+      ],
+      "sources": ["isd-register-first", "isd-student-permission", "isd-graduate-programme", "ci-pps"],
+      "reviewed": "2026-10-12"
+    },
+    {
+      "key": "moving",
+      "slug": "moving-here",
+      "tab": "Moving here",
+      "title": "Moving to Ireland to work or join family: where to get help",
+      "h1": "Help for people moving here",
+      "description": "Moving to Ireland to work or join family? Check work permits, register your permission, and find free advice and support.",
+      "lede": "Working in Ireland, or joining family here? Start here.",
+      "items": [
+        { "name": "Can I work?", "sub": "Check what your stamp allows", "href": "/work/" },
+        { "name": "Types of employment permit", "sub": "All 9 types, in plain English", "href": "/employment-permits/" },
+        { "name": "Register and get your IRP card", "sub": "Where to go, what to bring, and the fee", "href": "/register/" },
+        { "name": "Citizens Information", "sub": "Plain answers on housing, tax, health and family", "url": "https://www.citizensinformation.ie/en/" },
+        { "name": "Immigrant Council of Ireland", "sub": "Independent organisation that promotes the rights of migrants", "url": "https://www.immigrantcouncil.ie/" },
+        { "name": "Migrant Rights Centre Ireland", "sub": "Support and information for migrant workers", "url": "https://www.mrci.ie/" },
+        { "name": "Workplace Relations Commission", "sub": "Problems with pay, hours or your employer", "url": "https://www.workplacerelations.ie/en/" }
+      ],
+      "sources": ["isd-stamps", "dete-permit-types"],
+      "reviewed": "2026-10-12"
+    },
+    {
+      "key": "visiting",
+      "slug": "visiting",
+      "tab": "Visitors",
+      "title": "Visiting Ireland: visas, the 90-day stamp and lost passports",
+      "h1": "Help for visitors and tourists",
+      "description": "Visiting Ireland? Check if you need a visa, what happens at the airport, how long you can stay, and what to do if your passport is lost.",
+      "lede": "On holiday or visiting family in Ireland? Start here.",
+      "items": [
+        { "name": "Do I need a visa?", "sub": "Check by country before you travel", "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/" },
+        { "name": "Tourist SOS", "sub": "Free help if you are a victim of crime or lose your passport on holiday", "url": "https://www.touristsos.ie/" }
+      ],
+      "sections": [
+        {
+          "heading": "Do I need a visa?",
+          "list": [
+            "Citizens of some countries need a visa before they travel. Check with the official tool.",
+            "British citizens do not need a visa.",
+            "Some people with a UK visitor visa can visit without an Irish visa, under the British Irish Visa Scheme.",
+            "You can apply for a short stay 'C' visa up to 3 months before you travel."
+          ],
+          "sources": ["isd-visa-faq", "isd-visit"],
+          "reviewed": "2026-10-12"
+        },
+        {
+          "heading": "At the airport or port",
+          "list": [
+            "An immigration officer decides if you can come in. A visa lets you travel, but it does not promise entry.",
+            "Have your passport, your visa if you need one, and your boarding card ready.",
+            "It helps to bring your travel plans, proof of money, health insurance, where you are staying, and any invitation letters.",
+            "The officer puts a stamp in your passport. You can stay until the date on it, for 3 months at most.",
+            "Came in through Northern Ireland? Report to an immigration officer within 30 days, or within 7 days if you are here for work or business."
+          ],
+          "sources": ["isd-entry-non-eu"],
+          "reviewed": "2026-10-12"
+        },
+        {
+          "heading": "Staying longer than 3 months",
+          "list": [
+            "You need permission to stay longer. A short stay 'C' visa means you must leave before your stamp ends.",
+            "With a long stay 'D' visa, register your permission before your landing stamp ends."
+          ],
+          "link": { "label": "How to register", "href": "/register/" },
+          "sources": ["isd-entry-non-eu"],
+          "reviewed": "2026-10-12"
+        },
+        {
+          "heading": "Lost or stolen passport",
+          "list": [
+            "Report it to the Gardaí (Irish police).",
+            "Contact your country's embassy to get a replacement.",
+            "Tourist SOS can help you contact the Gardaí and your embassy."
+          ],
+          "sources": ["tourist-sos"],
+          "reviewed": "2026-10-12"
+        }
+      ],
+      "sources": ["isd-visit"],
+      "reviewed": "2026-10-12"
+    }
+  ]
+}

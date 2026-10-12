@@ -1,0 +1,307 @@
+[
+  {
+    "id": "0",
+    "kind": "no",
+    "badge": "No work",
+    "tags": ["family"],
+    "summary": "Short, temporary stays for people who support themselves. For example retired people and visiting academics.",
+    "who": [
+      "People retiring to Ireland with their own income",
+      "Visiting academics at an Irish university or college",
+      "Elderly dependent relatives of an Irish citizen or of a non-EU resident"
+    ],
+    "points": [
+      "You cannot work or run a business, unless your letter of permission says you can.",
+      "You must support yourself fully, or your sponsor in Ireland must.",
+      "You cannot get state benefits or use publicly funded services, such as public hospitals.",
+      "You must have private medical insurance.",
+      "You must apply for Stamp 0 and be granted it before you can register."
+    ],
+    "work": {
+      "title": "No.",
+      "body": "You cannot work or run a business, unless your letter of permission says you can."
+    },
+    "description": "Stamp 0 in Ireland: who gets it, why you cannot work, and the rules on money and medical insurance. Checked against official sources.",
+    "sources": ["isd-stamps"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "1",
+    "kind": "lim",
+    "badge": "Work for your permit only",
+    "tags": ["work"],
+    "summary": "Permission to work in Ireland, usually with an employment permit.",
+    "who": [
+      "People working here on an employment permit",
+      "People with permission to run a business here",
+      "People on a Working Holiday Authorisation (you cannot renew this)"
+    ],
+    "points": [
+      "You can start a job only when you or your employer has an employment permit for it, or your letter of permission says you do not need one.",
+      "You cannot run a business or be self-employed, unless your letter of permission says you can.",
+      "After 2 years on a Critical Skills Employment Permit, or 5 years on another employment permit, you may be able to get Stamp 4.",
+      "Renew your permission before it ends if you want to stay.",
+      "Time on Stamp 1 counts towards citizenship."
+    ],
+    "work": {
+      "title": "Only the job on your permit.",
+      "body": "You can work only in the job your employment permit is for, unless your letter of permission says otherwise."
+    },
+    "description": "Stamp 1 in Ireland: working on an employment permit, running a business, and the route to Stamp 4. Checked against official sources.",
+    "sources": ["isd-stamps"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "1A",
+    "kind": "lim",
+    "badge": "Training job only",
+    "tags": ["work"],
+    "summary": "Full-time, paid accountancy training with a company in Ireland.",
+    "who": [
+      "Trainee accountants with a training contract at a company in Ireland"
+    ],
+    "points": [
+      "You can work only in your accountancy training job.",
+      "You cannot do any other business, trade or profession, unless your letter of permission says you can.",
+      "You must finish your accountancy training within 4 years.",
+      "To stay after it ends, renew before it expires or apply for another permission, such as an employment permit."
+    ],
+    "work": {
+      "title": "Only your training job.",
+      "body": "You can work only as a trainee accountant under your training contract."
+    },
+    "description": "Stamp 1A in Ireland for trainee accountants: what work is allowed and the 4-year limit. Checked against official sources.",
+    "sources": ["isd-stamps"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "1G",
+    "kind": "yes",
+    "badge": "Full-time work, no permit needed",
+    "tags": ["work", "students", "family"],
+    "summary": "Graduates of Irish colleges looking for work, and eligible spouses and partners of some permit holders.",
+    "who": [
+      "Graduates with a level 8 award or higher from an Irish college (the Third Level Graduate Programme)",
+      "Spouses and de facto partners of Critical Skills Employment Permit holders, or of researchers on a Hosting Agreement",
+      "Since 15 May 2024: eligible spouses and partners of General Employment Permit and Intra-Company Transfer permit holders who have family reunification"
+    ],
+    "points": [
+      "You can work full time without an employment permit.",
+      "You cannot run a business or be self-employed.",
+      "Graduates get 12 months. With a level 9 award or higher, such as a master's, you can renew for 12 more months if you are actively looking for graduate work.",
+      "Graduates must apply within 6 months of getting their results. Use this time to find a job and get an employment permit.",
+      "Spouses and partners renew every year. After 5 years on Stamp 1G you may be able to apply for Stamp 4.",
+      "Time on Stamp 1G counts towards citizenship."
+    ],
+    "work": {
+      "title": "Yes, full time.",
+      "body": "You do not need an employment permit while your Stamp 1G is valid. You cannot be self-employed."
+    },
+    "description": "Stamp 1G in Ireland: the graduate programme, spouses of permit holders, how long it lasts and working without a permit.",
+    "sources": ["isd-stamps", "isd-graduate-programme", "isd-spouse-stamp-1g"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "1H",
+    "kind": "lim",
+    "badge": "Hospital doctor jobs only",
+    "tags": ["work"],
+    "summary": "Non-consultant hospital doctors (NCHDs) on a two-year multi-site General Employment Permit.",
+    "who": [
+      "Doctors working as NCHDs on a two-year multi-site General Employment Permit"
+    ],
+    "points": [
+      "You can work as an NCHD in any public hospital or health care facility while your permit is valid.",
+      "Your employer must tell the Department of Enterprise, Tourism and Employment before you change location or contract.",
+      "You and your family get conditions similar to Critical Skills Employment Permit holders.",
+      "Time on Stamp 1H counts towards citizenship."
+    ],
+    "work": {
+      "title": "Only as a hospital doctor.",
+      "body": "You can work as an NCHD in public hospitals and health care facilities while your permit is valid."
+    },
+    "description": "Stamp 1H in Ireland for non-consultant hospital doctors on a multi-site permit: what it allows. Checked against official sources.",
+    "sources": ["isd-stamps"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "2",
+    "kind": "lim",
+    "badge": "20 h a week in term, 40 h in holidays",
+    "tags": ["work", "students"],
+    "student": true,
+    "summary": "Full-time students on a course on the official list of approved courses (ILEP).",
+    "who": [
+      "English language students",
+      "Undergraduate degree students",
+      "Master's and PhD students",
+      "Higher national diploma students"
+    ],
+    "points": [
+      "Your course must be on the Interim List of Eligible Programmes (ILEP).",
+      "You can do casual work without an employment permit: up to 20 hours a week in term, and up to 40 hours a week in the holidays.",
+      "The holidays are June, July, August and September, and 15 December to 15 January.",
+      "You cannot run a business.",
+      "You cannot get state benefits or use publicly funded services, such as public hospitals, unless you are entitled another way.",
+      "You can study in Ireland for 7 years at most.",
+      "English language students: at most 3 courses of 25 weeks, and at least 85% attendance.",
+      "Time on Stamp 2 does not count towards citizenship.",
+      "After you graduate, you may be able to move to Stamp 1G."
+    ],
+    "work": {
+      "title": "Yes, up to 20 hours a week.",
+      "titleHoliday": "Yes, up to 40 hours a week.",
+      "body": "Casual work only. You do not need an employment permit."
+    },
+    "description": "Stamp 2 in Ireland: 20 hours a week in term, 40 in the holidays, which dates count as holidays, and the 7-year limit.",
+    "sources": ["isd-stamps", "isd-student-permission"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "2A",
+    "kind": "no",
+    "badge": "No work",
+    "tags": ["students"],
+    "summary": "Full-time students on a course that is not on the official list (ILEP).",
+    "who": [
+      "Students on a semester abroad at an Irish university or college",
+      "Students at a private secondary school",
+      "Spouses of some financially independent students"
+    ],
+    "points": [
+      "You cannot work or run a business.",
+      "You must have private medical insurance.",
+      "You cannot get state benefits or use publicly funded services, such as public hospitals.",
+      "Time on Stamp 2A does not count towards citizenship."
+    ],
+    "work": {
+      "title": "No.",
+      "body": "You cannot work on Stamp 2A."
+    },
+    "description": "Stamp 2A in Ireland: students on courses outside the ILEP list, why you cannot work, and insurance rules.",
+    "sources": ["isd-stamps"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "3",
+    "kind": "no",
+    "badge": "No work",
+    "tags": ["family"],
+    "summary": "Permission to stay for a set time, without the right to work. For example volunteers and ministers of religion.",
+    "who": [
+      "Volunteers, for example with a charity",
+      "Ministers of religion",
+      "Some family members of people here on an employment permit"
+    ],
+    "points": [
+      "You cannot work or run a business.",
+      "Renew your permission before it ends if you want to stay.",
+      "Time on Stamp 3 counts towards citizenship.",
+      "Spouse or partner of a General Employment Permit or Intra-Company Transfer permit holder? Since 15 May 2024, if you have family reunification you can get Stamp 1G and work without a permit."
+    ],
+    "work": {
+      "title": "No.",
+      "body": "You cannot work on Stamp 3. If you are the spouse or partner of an employment permit holder, check if you can move to Stamp 1G."
+    },
+    "description": "Stamp 3 in Ireland: who gets it, why you cannot work, and the 2024 change that moved many spouses to Stamp 1G.",
+    "sources": ["isd-stamps", "isd-spouse-stamp-1g"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "4",
+    "kind": "yes",
+    "badge": "Work and start a business",
+    "tags": ["work", "family"],
+    "summary": "Long-term permission to live and work. For example family of Irish citizens, refugees, and people who held an employment permit for some years.",
+    "who": [
+      "People who held a Critical Skills Employment Permit for 2 years",
+      "People who held another employment permit for 5 years",
+      "Researchers who held a Hosting Agreement for 2 years",
+      "Spouses, civil partners and de facto partners of Irish citizens",
+      "Refugees, people with subsidiary protection, and family members who join them",
+      "Parents of an Irish citizen child",
+      "People granted Long Term Residence"
+    ],
+    "points": [
+      "You can work for any employer without an employment permit.",
+      "You can start and run a business.",
+      "You can work in a profession, if the professional body allows it.",
+      "You may be able to use state services. Each service decides.",
+      "Renew your permission before it ends.",
+      "Time on Stamp 4 counts towards citizenship."
+    ],
+    "work": {
+      "title": "Yes, any job.",
+      "body": "You can work for any employer without a permit, and start your own business."
+    },
+    "description": "Stamp 4 in Ireland: who qualifies, working without a permit, starting a business and counting time for citizenship.",
+    "sources": ["isd-stamps"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "4D",
+    "kind": "lim",
+    "badge": "Check your letter",
+    "tags": ["family"],
+    "summary": "Eligible non-EU family members of UK citizens who came to live in Ireland after 1 January 2021.",
+    "who": [
+      "Non-EU family members of UK citizens living in Ireland"
+    ],
+    "points": [
+      "Your conditions are in your letter of permission. Read it carefully.",
+      "UK citizens themselves do not need permission. They can live and work in Ireland under the Common Travel Area."
+    ],
+    "work": {
+      "title": "Check your letter.",
+      "body": "What you can do is set out in your letter of permission."
+    },
+    "description": "Stamp 4D in Ireland for non-EU family of UK citizens who moved here after 1 January 2021. Checked against official sources.",
+    "sources": ["isd-stamps", "isd-eu-treaty-rights"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "5",
+    "kind": "yes",
+    "badge": "Work, no permit needed",
+    "tags": ["work"],
+    "summary": "Permission to stay without a time limit (\"without condition as to time\"). You can apply after 8 years of legal residence.",
+    "who": [
+      "People with 8 years (96 months) of legal residence in Ireland"
+    ],
+    "points": [
+      "You can live and work in Ireland without an employment permit.",
+      "It does not give you a right to any particular public service. Each service decides.",
+      "You can apply after 8 years (96 months) of legal residence.",
+      "Stamp 5 lasts until your passport expires. Keep your passport valid.",
+      "Time on Stamp 5 counts towards citizenship."
+    ],
+    "work": {
+      "title": "Yes.",
+      "body": "You can work in Ireland without an employment permit."
+    },
+    "description": "Stamp 5 in Ireland (without condition as to time): applying after 8 years, working, and keeping your passport valid.",
+    "sources": ["isd-stamps", "isd-wcatt"],
+    "reviewed": "2026-10-12"
+  },
+  {
+    "id": "6",
+    "kind": "yes",
+    "badge": "Irish citizen",
+    "tags": ["work"],
+    "summary": "Irish citizens with a second citizenship. The stamp goes in their non-Irish passport.",
+    "who": [
+      "Dual citizens who want their Irish status shown in their other passport"
+    ],
+    "points": [
+      "You are an Irish citizen, so you have no immigration conditions.",
+      "You do not need to register with immigration."
+    ],
+    "work": {
+      "title": "Yes.",
+      "body": "You are an Irish citizen and have no immigration conditions."
+    },
+    "description": "Stamp 6 in Ireland: what it means for dual Irish citizens, and why you do not need to register.",
+    "sources": ["isd-stamps"],
+    "reviewed": "2026-10-12"
+  }
+]

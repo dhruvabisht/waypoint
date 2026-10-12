@@ -1,0 +1,74 @@
+name: Check official sources
+
+# Twice a week: compare each official page we rely on with the last copy,
+# flag content that is due for review, and check every link. Problems become
+# GitHub issues, so you get an email when something needs your attention.
+#
+# Only a fingerprint of each page is committed (monitor/state.json). The full
+# text, used to show exactly what changed, stays in the private Actions cache.
+# Running twice a week keeps that cache from expiring (7 days unused).
+on:
+  schedule:
+    - cron: '23 6 * * 1,4'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: check-sources
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Work out the site address
+        env:
+          CUSTOM_SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          repo="${GITHUB_REPOSITORY#*/}"
+          owner="${GITHUB_REPOSITORY_OWNER,,}"
+          if [ -n "$CUSTOM_SITE_URL" ]; then url="$CUSTOM_SITE_URL"
+          elif [ "$repo" = "$owner.github.io" ]; then url="https://$owner.github.io"
+          else url="https://$owner.github.io/$repo"; fi
+          echo "SITE_URL=$url" >> "$GITHUB_ENV"
+
+      - name: Restore the last copies of the official pages
+        uses: actions/cache/restore@v6
+        with:
+          path: monitor/snapshots
+          key: source-snapshots-${{ github.run_id }}
+          restore-keys: source-snapshots-
+
+      - name: Compare official pages with the last copies
+        run: node scripts/check-sources.mjs --issues
+
+      - name: Keep this run's copies for next time
+        if: ${{ !cancelled() }}
+        uses: actions/cache/save@v6
+        with:
+          path: monitor/snapshots
+          key: source-snapshots-${{ github.run_id }}
+
+      - name: Check links
+        run: node scripts/build.mjs && node scripts/check-links.mjs --issues
+
+      # Committing every run also keeps the repository active: GitHub turns off
+      # scheduled workflows after 60 days without activity.
+      - name: Record the fingerprints
+        if: ${{ !cancelled() }}
+        run: |
+          date -u +%Y-%m-%dT%H:%MZ > monitor/last-run.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add monitor/state.json monitor/last-run.txt
+          git diff --cached --quiet || { git commit -m 'Source check' && git push; }

@@ -1,0 +1,20 @@
+{
+  "title": "Employment permits in Ireland: all 9 types explained",
+  "h1": "Types of employment permit",
+  "description": "The 9 types of employment permit in Ireland, from Critical Skills and General to Intra-Company Transfer, in plain English.",
+  "lede": "Most people from outside the EU, EEA, UK and Switzerland need an employment permit to work here. There are 9 types.",
+  "permits": [
+    { "name": "Critical Skills", "sub": "Highly skilled jobs on the Critical Skills Occupations List. After 2 years you may get Stamp 4." },
+    { "name": "General", "sub": "Most other jobs, except jobs on the ineligible list." },
+    { "name": "Intra-Company Transfer", "sub": "Senior managers, key staff and trainees moving from an overseas branch of a company to its Irish branch." },
+    { "name": "Dependant, Partner or Spouse", "sub": "Eligible family members of some permit holders who want to work." },
+    { "name": "Contract for Services", "sub": "Your employer outside the EU has a contract to provide services to an Irish company." },
+    { "name": "Reactivation", "sub": "You lost your permit through no fault of your own, or you were exploited, and want to work legally again." },
+    { "name": "Internship", "sub": "Full-time students at a college outside Ireland, for work experience in a critical skills area." },
+    { "name": "Sport and Cultural", "sub": "Work in sport, culture or entertainment." },
+    { "name": "Exchange Agreement", "sub": "Jobs under international exchange agreements that Ireland has signed." }
+  ],
+  "link": { "label": "How to apply, on the Department of Enterprise website", "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/" },
+  "sources": ["dete-permit-types", "isd-stamps"],
+  "reviewed": "2026-10-12"
+}

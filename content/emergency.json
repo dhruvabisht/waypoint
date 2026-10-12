@@ -1,0 +1,36 @@
+{
+  "title": "Emergency help in Ireland: call 112 or 999",
+  "h1": "Get help now",
+  "description": "In danger in Ireland? Call 112 or 999. How to text 112 if you cannot speak, how to tell them where you are, and other numbers to keep.",
+  "lede": "If you or someone else is in danger, call 112 or 999 now. Both numbers work.",
+  "location": {
+    "heading": "Tell them where you are",
+    "list": [
+      "Many smartphones send their location automatically when you contact 112. Do not rely on it.",
+      "Say your address, Eircode or a nearby landmark.",
+      "Not sure where you are? Tap the button below. Your phone shows your location so you can read it out."
+    ],
+    "sources": ["ecas-112-sms-faq"],
+    "reviewed": "2026-10-12"
+  },
+  "sms": {
+    "heading": "Cannot speak? Text 112",
+    "list": [
+      "You can text 112 from any Irish mobile number. A call is faster, so call if you can.",
+      "Say which service you need: Garda, Ambulance, Fire or Coast Guard.",
+      "Say where you are.",
+      "Texts from a non-Irish mobile number do not reach 112.",
+      "Use plain letters. Special characters, such as fadas, may not show correctly."
+    ],
+    "sources": ["ecas-112-sms", "ecas-112-sms-faq", "garda-numbers"],
+    "reviewed": "2026-10-12"
+  },
+  "numbers": [
+    { "name": "Emergency", "sub": "Gardaí, ambulance, fire, coast guard", "display": "112 or 999", "tel": "112", "urgent": true },
+    { "name": "Garda Confidential Line", "sub": "Give information about a crime. Not for emergencies.", "display": "1800 666 111", "tel": "1800666111" },
+    { "name": "Samaritans", "sub": "Someone to talk to, any time. Free from any phone.", "display": "116 123", "tel": "116123" },
+    { "name": "Tourist SOS", "sub": "Help for visitors who are victims of crime. Mon to Sat 10am to 6pm, Sun and public holidays 12pm to 6pm.", "display": "01 661 0562", "tel": "+35316610562" }
+  ],
+  "numbersSources": ["garda-numbers", "samaritans", "tourist-sos"],
+  "reviewed": "2026-10-12"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Can I work in Ireland? Check what your stamp allows",
+  "h1": "Can I work in Ireland?",
+  "description": "Check if you can work in Ireland on your stamp: Stamp 1, 1G, 2, 3, 4 and more. Student hours, employment permits and the minimum wage.",
+  "lede": "Pick your stamp. The answer changes as you tap.",
+  "permitNote": {
+    "heading": "Stamp and permit are different",
+    "body": "Immigration Service Delivery, part of the Department of Justice, Home Affairs and Migration, gives your immigration permission. Your stamp shows it. The Department of Enterprise, Tourism and Employment gives employment permits. Most non-EU workers need both.",
+    "sources": ["isd-stamps", "dete-permit-types"],
+    "reviewed": "2026-10-12"
+  },
+  "rights": {
+    "heading": "Your pay",
+    "list": [
+      "Since 1 January 2026, the national minimum wage is €14.15 an hour for people aged 20 and over. Lower rates apply under 20.",
+      "The government has announced a rise to €14.94 an hour from 1 January 2027. This still needs a new law."
+    ],
+    "body": "Problems with pay, hours or your employer? The Workplace Relations Commission can help.",
+    "link": { "label": "Contact the Workplace Relations Commission", "url": "https://www.workplacerelations.ie/en/" },
+    "sources": ["ci-minimum-wage"],
+    "reviewed": "2026-10-12",
+    "reviewBy": "2027-01-01",
+    "reviewReason": "The minimum wage is due to change on 1 January 2027."
+  }
+}
