@@ -2,121 +2,121 @@
   "isd-stamps": {
     "hash": "c66268a7c6cca4ea19bf62519daa8f9502f71c8825855982a40bc6c4bacbe679",
     "chars": 19542,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "isd-register-first": {
     "hash": "0ce3bad717e30ad6ba5c9d7161caf3f814573df5d42fcf657345d08cb97f7d5c",
     "chars": 5320,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "isd-required-documents": {
-    "hash": "5e8ff1b6bccef9ee14f8323fe526f8fea220b9d205b6fdafcf62865617ac69d6",
-    "chars": 74497,
-    "checked": "2026-10-22",
-    "changed": "2026-10-12"
+    "hash": "9a1ef8f4db404423d94ba0aada983ae09dc9b1c38393c37bc016b9c63976e9e8",
+    "chars": 73115,
+    "checked": "2026-10-26",
+    "changed": "2026-10-26"
   },
   "isd-registration-faq": {
     "hash": "95b8c63de23c60225751954219949ee5f2cc51a736422557b609b13ae239fdd6",
     "chars": 43884,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "isd-student-permission": {
     "hash": "cd070b52f7690ac05d490bec108c6630f463df8a8223c16d1c4dbac1eff72200",
     "chars": 20138,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "isd-graduate-programme": {
     "hash": "2c338a29fbf0752b010f82a9a1a16c6c131d61d1f73ac6f568de1dc696a2db71",
     "chars": 4291,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "isd-spouse-stamp-1g": {
     "hash": "66463b36b3a64a4f5c30a3e1ca630901cf6a026b28ac85f270470786ca30f56d",
     "chars": 5071,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "isd-wcatt": {
     "hash": "4c5c317a94b15a6ea83099b567a39ff2dece838478a86e67cafe2d87b7ed368a",
     "chars": 14743,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "isd-eu-treaty-rights": {
     "hash": "c94651bdce8a0f2644b5c9ab210329e2a5b4bcdca8c78544a28c8d4b22e047c2",
     "chars": 33202,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "isd-entry-non-eu": {
     "hash": "18e1ba51d815a2da5d3642d502b8d322c65a6a8abb5953255f14644641d4e966",
     "chars": 3021,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "isd-visit": {
     "hash": "8b3fdb9dfc4da1dbcfce4567ec3b29004c995b8440167298b19cba4f5f2366c8",
     "chars": 1581,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "isd-visa-faq": {
     "hash": "92aa9a26b3d28c8a1febd3fda7acfecd21341b60217890640e2cab775ad5e3ff",
     "chars": 20383,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "dete-permit-types": {
     "hash": "086dd93e0052d898414913262e29c473e4356cbfe6d8bb5f2f265d4f24b4bb29",
     "chars": 6107,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "ci-minimum-wage": {
     "hash": "f03d98004afb713916e4b24dc88602ffe40882e5896195907796942b463e4b22",
     "chars": 11076,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "ci-pps": {
     "hash": "0f50a13450b84dea68fe8099cfbd5beb377e17ab7098f50a3741005010fecfa3",
     "chars": 12277,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "ecas-112-sms": {
     "hash": "7428c002bb92ce014089a98a605a29f6c097b97078e6321b9c515db0ea8b35eb",
     "chars": 1229,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "ecas-112-sms-faq": {
     "hash": "9bba4f1b9e4737d88fefa3f9798db010bd8fe5d6d15b881bd970c09871dbf676",
     "chars": 3520,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "garda-numbers": {
     "hash": "06905ac405fd52465d5e61f984f97faf07b011b285f16a255e7d3d8c7b50ff93",
     "chars": 6595,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   },
   "samaritans": {
-    "hash": "99f365d64afa5c5550d385cc35e40bda493774342cabf892fa86837a80cab304",
-    "chars": 13307,
-    "checked": "2026-10-22",
-    "changed": "2026-10-12"
+    "hash": "31a0094ba3e699aea4957bce274c14add5e86f4231540956b660468f4c03042a",
+    "chars": 13159,
+    "checked": "2026-10-26",
+    "changed": "2026-10-26"
   },
   "tourist-sos": {
     "hash": "9fdc9f144556db445e28d6330bbec780f9add7f2740640d29125e4cb059683b9",
     "chars": 5300,
-    "checked": "2026-10-22",
+    "checked": "2026-10-26",
     "changed": "2026-10-12"
   }
 }
